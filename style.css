@@ -1,4 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+*
+{
+    font-family: 'Jura', sans-serif;
+    font-size: 32px;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+    height:100vh;
+    width:100vw;
+}
+
+.genre
+{
+    display:flex;
+}
+
+section
+{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    height:100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.genre :nth-child(1)
+{
+    display: flex;
+    background-color:rgb(30, 144, 255);
+    flex-grow:1;
+    /* flex-wrap: wrap; */
+
+}
+
+.genre :nth-child(2)
+{
+    display:flex;
+    background-color:rgb(190, 178, 178);
+    flex-grow:1;
+    /* flex-wrap: wrap; */
+}
+
+.genre :nth-child(3)
+{
+    display:flex;
+    background-color:rgb(255, 214, 30);
+    flex-grow:6;
+    /* flex-wrap: wrap; */
+}
+
+.genre :nth-child(4)
+{
+    display:flex;
+    color:white;
+    background-color:rgb(0, 0, 0);
+    flex-grow:1;
+    /* flex-wrap: wrap; */
+}
+
+.genre :nth-child(5)
+{
+    display:flex;
+    background-color:rgb(169, 169, 169);
+    flex-grow:1;
+    /* flex-wrap: wrap; */
+}
+
+.genre :nth-child(6)
+{
+    display:flex;
+    background-color:rgb(255, 0, 0);
+    flex-grow:3;
+    /* flex-wrap: wrap; */
 }
