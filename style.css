@@ -29,7 +29,7 @@ section
     flex-wrap: wrap;
 }
 
-.genre :nth-child(1)
+.genres :nth-child(1)
 {
     display: flex;
     background-color:rgb(30, 144, 255);
@@ -38,7 +38,7 @@ section
 
 }
 
-.genre :nth-child(2)
+.genres :nth-child(2)
 {
     display:flex;
     background-color:rgb(190, 178, 178);
@@ -46,7 +46,7 @@ section
     /* flex-wrap: wrap; */
 }
 
-.genre :nth-child(3)
+.genres :nth-child(3)
 {
     display:flex;
     background-color:rgb(255, 214, 30);
@@ -54,7 +54,7 @@ section
     /* flex-wrap: wrap; */
 }
 
-.genre :nth-child(4)
+.genres :nth-child(4)
 {
     display:flex;
     color:white;
@@ -63,7 +63,7 @@ section
     /* flex-wrap: wrap; */
 }
 
-.genre :nth-child(5)
+.genres :nth-child(5)
 {
     display:flex;
     background-color:rgb(169, 169, 169);
@@ -71,7 +71,7 @@ section
     /* flex-wrap: wrap; */
 }
 
-.genre :nth-child(6)
+.genres :nth-child(6)
 {
     display:flex;
     background-color:rgb(255, 0, 0);
